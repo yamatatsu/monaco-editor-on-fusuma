@@ -1,0 +1,19 @@
+<!-- classes: title -->
+
+import MonacoEditor from 'react-monaco-editor'
+
+# Title
+
+---
+
+<div>
+  {process.env.SSR && (
+    <MonacoEditor
+      width="90vw"
+      height="90vh"
+      options={{
+        selectOnLineNumbers: true,
+      }}
+    />
+  )}
+</div>

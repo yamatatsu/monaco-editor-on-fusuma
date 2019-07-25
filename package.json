@@ -1,0 +1,12 @@
+{
+  "name": "monaco-editor-on-fusuma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yamatatsu <the.kinnikuman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fusuma": "^1.13.0",
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "react-monaco-editor": "^0.28.0"
+  }
+}
